@@ -1,1 +1,2 @@
-# dwm
+# dwm - Dynamic Window Manager
+
