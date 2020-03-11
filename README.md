@@ -30,8 +30,7 @@ Depending where you cloned and make dwm.
 
 For any aditional keybindings please refer to config.h
 
-# Things worth mention
---------------
+#Things worth mention
 I use:
 - urxvt
 - nvim
