@@ -23,7 +23,7 @@ static const char *colors[][3]      = {
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
-static const char *tagsalt[] = { "\ufcb5", "\uf30c", "\ufb0f", "\ufb3e", "\uf1d7", "\uf04b", "\uf019", "\uf484", "\uf269" };
+static const char *tagsalt[] = { "\ufcb5", "\uf30c", "\ufb0f", "\ufb3e", "\uf90d", "\uf1d8", "\uf019", "\uf484", "\uf269" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -33,7 +33,7 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     iscentered     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            0,             1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,             0,           -1 },
-	{ "code-oss", NULL,	  NULL,	      1 << 2,       0,		   0,           -1 },
+	{ "vscode",   NULL,	  NULL,	      1 << 2,       0,		   0,           -1 },
 };
 
 /* layout(s) */
@@ -63,11 +63,13 @@ static const Layout layouts[] = {
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
 static const char *termcmd[]  = { "urxvt", NULL };
+static const char *nnncmd[] = { "urxvt", "-e", "nnn", NULL};
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } },
+	{ MODKEY,                       XK_e,      spawn,          {.v = nnncmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
