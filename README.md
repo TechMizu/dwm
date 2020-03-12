@@ -16,7 +16,6 @@ I've changed the config.mk file from the orignal to make it work with FreeBSD, b
 - Center Master.
 
 # Installation
---------------------
 > make clean install
 
 root permission (sudo or doas) may be require.
@@ -33,9 +32,14 @@ For any aditional keybindings please refer to config.h
 #Things worth mention
 I use:
 - urxvt
+- dmenu
+- surf
 - nvim
 - feh
 - nnn
 - i3lock
 - Nerd Fonts
+- VSCode
 
+The unicode characters I am using as alternative tags and many more can be find here: https://www.nerdfonts.com/cheat-sheet.
+Install the Nerd Font pkg.
