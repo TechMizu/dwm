@@ -21,15 +21,15 @@ I've changed the config.mk file from the orignal to make it work with FreeBSD, b
 root permission (sudo or doas) may be require.
 
 Call dwm from .xinitrc like so: 
-> exec dwm
-or
+> exec dwm  
+or  
 > exec /home/$USER/dir/dwm
 
 Depending where you cloned and make dwm.
 
 For any aditional keybindings please refer to config.h
 
-#Things worth mention
+# Things worth mention
 I use:
 - urxvt
 - dmenu
@@ -37,9 +37,10 @@ I use:
 - nvim
 - feh
 - nnn
+- zsh
 - i3lock
 - Nerd Fonts
 - VSCode
 
-The unicode characters I am using as alternative tags and many more can be find here: https://www.nerdfonts.com/cheat-sheet.
-Install the Nerd Font pkg.
+The unicode characters I am using as alternative tags and many more can be find here: https://www.nerdfonts.com/cheat-sheet.  Install the Nerd Font pkg.
+
