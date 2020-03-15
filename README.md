@@ -43,5 +43,5 @@ I use:
 - Nerd Fonts
 - VSCode
 
-The unicode characters I am using as alternative tags and many more can be find here: https://www.nerdfonts.com/cheat-sheet.  Install the Nerd Font pkg.
-
+The unicode characters I am using as alternative tags and many more can be find here: https://www.nerdfonts.com/cheat-sheet.  Install the Nerd Font pkg.  
+For the bar I'm using dwm-bar with minimun changes and only a few modules. I am working on my own though, will post later.
