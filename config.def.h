@@ -6,7 +6,7 @@ static const unsigned int gappx     = 15;       /* gap pixel between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const int vertpad            = 20;       /* vertical padding of bar */
+static const int vertpad            = 15;       /* vertical padding of bar */
 static const int sidepad            = 15;       /* horizontal padding of bar */
 static const char *fonts[]          = { "monospace:size=12" };
 static const char dmenufont[]       = "monospace:size=10";
@@ -18,7 +18,7 @@ static const char col_cyan[]        = "#57a7a4";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_gray1,  col_cyan  },
+	[SchemeSel]  = { col_gray4, col_gray1, col_cyan },
 };
 
 /* tagging */
