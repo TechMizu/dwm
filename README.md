@@ -15,6 +15,7 @@ I've changed the config.mk file from the orignal to make it work with FreeBSD, b
 - PerTag.
 - TileGap.
 - Center Master.
+- No Border.
 
 # Installation
 > make clean install
