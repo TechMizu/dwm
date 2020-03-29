@@ -4,7 +4,7 @@ dwm is a fast and lightweight tiling window manager for X.
 
 This is my build of dwm for FreeBSD. I have added all my changes in the config.def.h file so after build dwm you can keep playing and make changes to your own config.h and still easily go back to mine if needed.
 
-![Desktop Image](https://raw.githubusercontent.com/TechMizu/dwm/master/desktop.png?token=ABHZ5W3S7WFXMO3GF4EN2H26NXGYU)
+![Desktop Image](https://raw.githubusercontent.com/TechMizu/dwm/master/desktop.png)
 Note
 ---------
 I've changed the config.mk file from the orignal to make it work with FreeBSD, but the original config.mk file can be found in the official repository.
