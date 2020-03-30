@@ -16,6 +16,7 @@ I've changed the config.mk file from the orignal to make it work with FreeBSD, b
 - TileGap.
 - Center Master.
 - No Border.
+- Center Window Name.
 
 # Installation
 > make clean install
