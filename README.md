@@ -17,6 +17,7 @@ I've changed the config.mk file from the orignal to make it work with FreeBSD, b
 - Center Master.
 - No Border.
 - Center Window Name.
+- Fancy Bar.
 
 # Installation
 > make clean install
@@ -26,7 +27,7 @@ root permission (sudo or doas) may be require.
 Call dwm from .xinitrc like so: 
 > exec dwm  
 or  
-> exec /home/$USER/dir/dwm
+> exec $HOME/.config/dwm
 
 Depending where you cloned and make dwm.
 
