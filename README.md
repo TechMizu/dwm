@@ -35,10 +35,11 @@ For any aditional keybindings please refer to config.h
 
 # Things worth mention
 I use:
-- ~urxvt~ Alacritty
+- Alacritty
 - dmenu
-- ~surf~ qutebrowser
+- qutebrowser
 - neovim
+- compton
 - feh
 - nnn
 - zsh
