@@ -35,10 +35,10 @@ For any aditional keybindings please refer to config.h
 
 # Things worth mention
 I use:
-- urxvt
+- ~urxvt~ Alacritty
 - dmenu
-- surf
-- nvim
+- ~surf~ qutebrowser
+- neovim
 - feh
 - nnn
 - zsh
@@ -46,5 +46,4 @@ I use:
 - Nerd Fonts
 - VSCode
 
-The unicode characters I am using as alternative tags and many more can be find here: https://www.nerdfonts.com/cheat-sheet.  Install the Nerd Font pkg.  
-For the bar I'm using dwm-bar with minimun changes and only a few modules. I am working on my own though, will post later.
+The unicode characters I am using as alternative tags and many more can be find here: https://www.nerdfonts.com/cheat-sheet.  Install the Nerd Font pkg.
