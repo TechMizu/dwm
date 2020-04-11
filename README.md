@@ -18,6 +18,7 @@ I've changed the config.mk file from the orignal to make it work with FreeBSD, b
 - No Border.
 - ~Center Window Name~.
 - Fancy Bar.
+- Attach Aside.
 
 # Installation
 > make clean install
